@@ -11,12 +11,19 @@ h1 {
     color:rgb(0, 97, 8);
     font-family: 'Chakra';
     font-display: swap;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
     color: gray;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
 }
 
 body {
@@ -28,28 +35,43 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     min-height: 100vh;
     flex-direction: column;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .quote {
     font-family: 'Courier New', Courier, monospace;
     font-display: swap;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
 }
 
 .author {
     color: gray;
     font-style: italic;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
 }
 
 #footer {
+    margin-left: 0;
+    margin-right: 0;
     margin-top: auto;
     color: rgb(0, 110, 255);
     font-size: 14px;
     text-shadow: #7118ff;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
 }
   
 #footer a {
     color: rgb(0, 119, 255);
+}
+
+body {
+    background-image: url('images/breaking-bad-4k-art-zy-1920x1080.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
