@@ -1,22 +1,53 @@
+@font-face {
+    font-family: 'Chakra';
+    src: url('fonts/Chakra_Petch/ChakraPetch-Light.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
 }
 
 h1 {
     color:rgb(0, 97, 8);
+    font-family: 'Chakra';
+    font-display: swap;
+}
+
+h2 {
+    color: gray;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: black;
     display: flex;
-    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .quote {
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-display: swap;
 }
 
 .author {
     color: gray;
     font-style: italic;
+}
+
+#footer {
+    margin-top: auto;
+    color: rgb(0, 110, 255);
+    font-size: 14px;
+    text-shadow: #7118ff;
+    background-color: rgb(0, 0, 0);
+}
+  
+#footer a {
+    color: rgb(0, 119, 255);
 }

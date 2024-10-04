@@ -1,8 +1,6 @@
 console.info("hiya! your javascript is working!")
 console.info("^_^")
 
-
-
 async function download() {
     const api = "https://api.breakingbadquotes.xyz/v1/quotes";
     const response = await fetch(api);
