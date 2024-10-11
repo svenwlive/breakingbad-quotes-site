@@ -6,7 +6,7 @@ async function download() {
 
     let api = "https://api.breakingbadquotes.xyz/v1/quotes/";
     api += quoteNum;
-    console.info("Getting " + quoteNum + " quotes from api")
+    console.info("downloading " + quoteNum + " quotes from api")
     const response = await fetch(api);
     const data = await response.json();
     // const quoteText = document.getElementById("quote");
